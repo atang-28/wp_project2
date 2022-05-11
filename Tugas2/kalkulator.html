@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Online</title>
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+
+</head>
+<body>
+
+    <div class="wrapper bg-primary">
+        <div class="calculator m-2">
+            <form name="form">
+                <input type="text" class="textView m-2 fs-4 rounded-1 border-0" name="textView">
+            </form>
+            <table class="m-2">
+                <tr>
+                    <td><input type="button" class="btn btn-light m-1" value="C" onclick="c()"></td>
+                    <td><input type="button" class="btn btn-light m-1 del" value="Del" onclick="DEL()"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="%" onclick="persen()"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="/" onclick="insert('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-light m-1" value="7" onclick="insert(7)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="8" onclick="insert(8)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="9" onclick="insert(9)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="X" onclick="insert('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-light m-1" value="4" onclick="insert(4)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="5" onclick="insert(5)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="6" onclick="insert(6)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="-" onclick="insert('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-light m-1" value="1" onclick="insert(1)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="2" onclick="insert(2)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="3" onclick="insert(3)"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="+" onclick="insert('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn btn-light m-1" value="," onclick="insert('.')"></td>
+                    <td><input type="button" class="btn btn-light m-1" value="0" onclick="insert(0)"></td>
+                </tr>
+                <input type="button" class="sama" value="=" onclick="hasil()">
+            </table>
+        </div>
+    </div>
+
+    
+</body>
+</html>

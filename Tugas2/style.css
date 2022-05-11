@@ -1,0 +1,37 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+table tr td .btn{
+    font-weight: bold;
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.sama{
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 253px;
+    margin-left: 153px;
+    border: none;
+    border-radius: 4px;
+}
+.btn:hover{
+    background: #99A799;
+    font-weight: white;
+}
+.sama:hover{
+    background: #06FF00;
+    color: black;
+    font-size: 29px;
+}
+.del:hover{
+    background: #FF1700;
+}
